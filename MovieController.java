@@ -226,6 +226,7 @@ public class MovieController {
 		return "movie/list/SearchResult.tiles";
 	}
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// 전체영화 보여주기
 	@RequestMapping("/Movieing/Movie/AllMovie.mov")
 	public String movieMain(Model model) throws Exception {
